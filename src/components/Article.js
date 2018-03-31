@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { getArticle } from '../api'
 
 export default class Article extends Component {
- 
+
   state = {
     article: null,
   }
